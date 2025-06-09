@@ -1,0 +1,15 @@
+<!-- res/drawable/spinner_border.xml -->
+<shape xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:ignore="ExtraText">
+    <!-- Fondo interno del Spinner (puedes cambiar el color si lo deseas) -->
+    <solid android:color="@android:color/white" />
+
+    <!-- Bordes redondeados -->
+    <corners android:radius="8dp" /> <!-- Ajusta el radio para bordes más o menos redondeados -->
+
+    <!-- Borde negro -->
+    <stroke
+        android:color="#000000"
+    android:width="2dp" />    <!-- Grosor del borde -->
+</shape>

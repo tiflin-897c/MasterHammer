@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/elMundoLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF5E1"
+    android:fitsSystemWindows="true"
+    tools:context=".elmundo.ElMundo">
+
+    <!-- titulo  -->
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="El Mundo"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="32dp"/>
+
+
+    <!--  Geografía -->
+    <Button
+        android:id="@+id/btnGeografia"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Geografía"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:backgroundTint="#3A0909"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/titulo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Transfondo -->
+    <Button
+        android:id="@+id/btnTransfondo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Transfondo"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:backgroundTint="#3A0909"
+        android:textColor="@android:color/white"
+        app:layout_constraintTop_toBottomOf="@id/btnGeografia"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <!-- caos -->
+    <Button
+        android:id="@+id/btnCaos"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Caos"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:backgroundTint="#3A0909"
+        android:textColor="@android:color/white"
+        app:layout_constraintTop_toBottomOf="@id/btnTransfondo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <!--  Facciones -->
+    <Button
+        android:id="@+id/btnFacciones"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Facciones"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:backgroundTint="#3A0909"
+        android:textColor="@android:color/white"
+        app:layout_constraintTop_toBottomOf="@id/btnCaos"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <!--  Volver  -->
+    <Button
+        android:id="@+id/botonIrAMain"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Volver"
+        android:textSize="18sp"
+        android:padding="14dp"
+        android:backgroundTint="#3A0909"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_percent="0.9" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

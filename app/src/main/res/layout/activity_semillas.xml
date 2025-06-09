@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FFF5E1"
+    tools:context=".Semillas">
+
+
+    <!-- Contenedor -->
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:gravity="center_horizontal">
+
+        <!-- Bloque de texto con scroll -->
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2">
+                <TextView
+                    android:id="@+id/textViewSemilla"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:padding="30dp"
+                    android:background="#58D2B48C"/>
+            </ScrollView>
+
+        <!-- Boton generar semilla aventura -->
+        <Button
+                android:id="@+id/botonSemilla"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Generar semilla de aventura"
+                android:backgroundTint="#3A0909"
+                android:layout_marginBottom="40dp"/>
+
+
+        <!-- Bloque de texto con scroll -->
+        <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2">
+                <TextView
+                    android:id="@+id/textViewPnj"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:padding="30dp"
+                    android:background="#58D2B48C"/>
+            </ScrollView>
+
+        <!-- Boton generar pnj -->
+            <Button
+                android:id="@+id/botonPnj"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Generar pnj"
+                android:backgroundTint="#3A0909"
+                android:layout_marginBottom="40dp"/>
+
+        <!-- Bloque de texto con scroll -->
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2">
+                <TextView
+                    android:id="@+id/textViewEnemigo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:padding="30dp"
+                    android:background="#58D2B48C"/>
+            </ScrollView>
+
+        <!-- Boton generar enemigo -->
+            <Button
+                android:id="@+id/botonEnemigo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Generar enemigo"
+                android:backgroundTint="#3A0909"
+                android:layout_marginBottom="40dp"/>
+
+        <!-- Bloque de texto con scroll -->
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2">
+                <TextView
+                    android:id="@+id/textViewPoblacion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:padding="30dp"
+                    android:background="#58D2B48C"/>
+            </ScrollView>
+
+            <!-- Boton generar poblacion -->
+            <Button
+                android:id="@+id/botonPoblacion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Generar población"
+                android:backgroundTint="#3A0909"
+                android:layout_marginBottom="40dp"/>
+
+        </LinearLayout>
+
+    <!--  Volver -->
+    <Button
+        android:id="@+id/botonIrAMain"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Volver"
+        android:textSize="18sp"
+        android:padding="14dp"
+        android:backgroundTint="#3A0909"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_percent="0.9" />
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+

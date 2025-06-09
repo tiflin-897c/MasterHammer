@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/normasLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF5E1"
+    android:fitsSystemWindows="true"
+    tools:context=".normas.Normas">
+
+    <!-- titulo -->
+    <TextView
+        android:id="@+id/tvNormasTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Normas"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="40dp"/>
+
+    <!--  Personajes -->
+    <Button
+        android:id="@+id/btnCreacionPersonajes"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Creación de Personajes"
+        android:textSize="18sp"
+        android:padding="14dp"
+        android:textColor="@color/white"
+        android:backgroundTint="#3A0909"
+        app:layout_constraintTop_toBottomOf="@id/tvNormasTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"/>
+
+    <!--  Combate -->
+    <Button
+        android:id="@+id/btnCombate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Combate"
+        android:textSize="18sp"
+        android:padding="14dp"
+        android:textColor="@color/white"
+        android:backgroundTint="#3A0909"
+        app:layout_constraintTop_toBottomOf="@id/btnCreacionPersonajes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="12dp"/>
+
+    <!--  Destino y Resilencia -->
+    <Button
+        android:id="@+id/btnSubidaDeNivel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Destino y Resiliencia"
+        android:textSize="18sp"
+        android:padding="14dp"
+        android:textColor="@color/white"
+        android:backgroundTint="#3A0909"
+        app:layout_constraintTop_toBottomOf="@id/btnCombate"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="12dp"/>
+
+    <!--  Estados -->
+    <Button
+        android:id="@+id/btnEstados"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Estados"
+        android:textSize="18sp"
+        android:padding="14dp"
+        android:textColor="@color/white"
+        android:backgroundTint="#3A0909"
+        app:layout_constraintTop_toBottomOf="@id/btnSubidaDeNivel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="12dp"/>
+
+    <!--  Volver -->
+    <Button
+        android:id="@+id/botonIrAMain"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Volver"
+        android:textSize="18sp"
+        android:padding="14dp"
+        android:textColor="@color/white"
+        android:backgroundTint="#3A0909"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_percent="0.9"
+        android:layout_marginBottom="24dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
+

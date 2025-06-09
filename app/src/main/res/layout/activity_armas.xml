@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp"
+    android:background="#FFF5E1">
+
+    <!-- Spinner tablas -->
+    <Spinner
+        android:id="@+id/spinnerTablas"
+        android:layout_width="371dp"
+        android:layout_height="54dp"
+        android:background="#74D2B48C"
+        android:foregroundTint="@color/white"
+        android:popupBackground="#D2B48C"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Spinner tipos de arma -->
+    <Spinner
+        android:id="@+id/spinnerTipos"
+        android:layout_width="372dp"
+        android:layout_height="56dp"
+        android:background="#74D2B48C"
+
+        android:popupBackground="#D2B48C"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/spinnerTablas" />
+
+    <!-- RecyclerView armas -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewArmas"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/botonIrAMain"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/spinnerTipos"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <!-- volver  -->
+    <Button
+        android:id="@+id/botonIrAMain"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Volver"
+        android:textSize="18sp"
+        android:padding="14dp"
+        android:backgroundTint="#3A0909"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_percent="0.9" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+

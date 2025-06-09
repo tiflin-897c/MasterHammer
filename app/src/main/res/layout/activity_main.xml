@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/fondo"
+    android:padding="16dp">
+
+    <!-- Titulo -->
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="Master Hammer"
+        android:textColor="#FFFFFF"
+        android:textSize="35sp" />
+
+    <!-- grid para los botones -->
+    <GridLayout
+        android:layout_width="334dp"
+        android:layout_height="243dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:columnCount="2"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <!-- Boton armas -->
+        <Button
+            android:id="@+id/botonArmas"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/buttonColor"
+            android:text="Armas"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <!-- Boton normas -->
+        <Button
+            android:id="@+id/botonNormas"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/buttonColor"
+            android:text="Normas"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <!-- Boton tiradas -->
+        <Button
+            android:id="@+id/botonTiradas"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/buttonColor"
+            android:text="Tiradas"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <!-- Boton el mundo -->
+        <Button
+            android:id="@+id/botonElMundo"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/buttonColor"
+            android:text="El mundo"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <!-- Boton semillas -->
+        <Button
+            android:id="@+id/botonSemilla"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/buttonColor"
+            android:text="Semillas"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <!-- Boton cualidades y defectos -->
+        <Button
+            android:id="@+id/botonCuaDefe"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/buttonColor"
+            android:text="Cualidades y defectos"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+
+    </GridLayout>
+</LinearLayout>
+
