@@ -67,18 +67,19 @@ Modernizar el acceso a la información del manual de Warhammer Fantasy y facilit
 com.example.masterhammer/
 ├── MainActivity.kt
 ├── Armas/
-│ ├── Armas.kt
-│ ├── ArmasAdapter.kt
-│ ├── DbHelper-BBDD-Armas.kt
-│ └── Arma.kt
+│  ├── Armas.kt
+│  ├── ArmasAdapter.kt
+│  ├── DbHelper-BBDD-Armas.kt
+│  └── Arma.kt
 ├── normas/
-│ ├── Normas.kt
-│ ├── Combate.kt
-│ └── ...
+│  ├── Normas.kt
+│  ├── Combate.kt
+│  └── ...
 ├── elmundo/
-│ ├── ElMundo.kt
-│ ├── Caos.kt
-│ └── ...
+│  ├── ElMundo.kt
+│  ├── Caos.kt
+│  └── ...
+
 
 
 ---
