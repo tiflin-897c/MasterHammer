@@ -63,6 +63,7 @@ Modernizar el acceso a la información del manual de Warhammer Fantasy y facilit
 ---
 
 ## 🧠 Estructura del proyecto
+
 com.example.masterhammer/
 - MainActivity.kt
 - Armas/
@@ -78,7 +79,6 @@ com.example.masterhammer/
   - ElMundo.kt
   - Caos.kt
   - ...
-
 
 
 
