@@ -64,20 +64,21 @@ Modernizar el acceso a la información del manual de Warhammer Fantasy y facilit
 
 ## 🧠 Estructura del proyecto
 com.example.masterhammer/
-├── MainActivity.kt
-├── Armas/
-│  ├── Armas.kt
-│  ├── ArmasAdapter.kt
-│  ├── DbHelper-BBDD-Armas.kt
-│  └── Arma.kt
-├── normas/
-│  ├── Normas.kt
-│  ├── Combate.kt
-│  └── ...
-├── elmundo/
-│  ├── ElMundo.kt
-│  ├── Caos.kt
-│  └── ...
+- MainActivity.kt
+- Armas/
+  - Armas.kt
+  - ArmasAdapter.kt
+  - DbHelper-BBDD-Armas.kt
+  - Arma.kt
+- normas/
+  - Normas.kt
+  - Combate.kt
+  - ...
+- elmundo/
+  - ElMundo.kt
+  - Caos.kt
+  - ...
+
 
 
 
