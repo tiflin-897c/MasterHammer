@@ -94,11 +94,8 @@ com.example.masterhammer/
 ## 👤 Autor
 
 **David Muñoz García**  
-Proyecto desarrollado como parte del CFGS Desarrollo de Aplicaciones Multiplataforma (DAM)  
-Tutor: Eva Gavidia Cantavella
-
+Proyecto desarrollado como parte del del grando de Desarrollo de Aplicaciones Multiplataforma (DAM)  
 📅 Entregado: 24/04/2025  
-📁 Documentación: [Memoria y anexos](https://drive.google.com/drive/folders/1lPjcAssOLtID3NlTyBU7_LjXVjkTP6R)
 
 ---
 
