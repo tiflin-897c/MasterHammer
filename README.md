@@ -1,4 +1,5 @@
 # 📚 Master Hammer - Companion App para Warhammer Fantasy 4ª Edición
+![master_hammer](https://github.com/user-attachments/assets/2efdd02e-430f-4008-99f2-cea1295f43f2)
 
 **Master Hammer** es una aplicación móvil desarrollada en **Kotlin + Android Studio** que sirve como herramienta de apoyo para jugadores y directores de juego de **Warhammer Fantasy 4ª Edición**. Esta app permite consultar armas, reglas, tiradas, trasfondo del mundo, y hasta generar contenido aleatorio para improvisar aventuras.
 
